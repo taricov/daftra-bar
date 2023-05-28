@@ -4,5 +4,5 @@
 
 
 #root{
-    @apply w-screen h-screen fixed
+    @apply w-screen h-screen fixed z-[100]
 }
