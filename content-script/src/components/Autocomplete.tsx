@@ -51,7 +51,7 @@ export default function BasicDemo() {
     return (
         <div className="card flex justify-content-center">
             <AutoComplete value={value} suggestions={items} completeMethod={search} onChange={(e) => setValue(e.value)} />
-            <SpeedDial model={items} radius={80} type="semi-circle" direction="right" style={{ top: 'calc(50% - 2rem)', left: 0 }} />
+            <SpeedDial model={itemsDial} radius={80} type="semi-circle" direction="right" style={{ top: 'calc(50% - 2rem)', left: 0 }} />
 
         </div>
     )
